@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>Wallpaper Details - Zedge</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@300;400;500;600;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<script src="popup.js"></script>
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="Index.html"><img src="images/Zedgepurple.png" width="125px"></a>
+        </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="Index.html">Home</a></li>    
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="product-details.html">Favorites</a></li>
+                    <li><a href="cart.html">Cart</a></li>  
+                    <li><a href="Account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="20px" height="20px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle">
+    </div>
+</div>
+
+<!--single product details-->
+
+    <div class="small-container single-product">
+        <div class="row">
+            <!-- The grid: four columns -->
+            <div class="column">
+                    <img class="popup-img" src="images/gallery-a.jpg" width="100%" Class="small-img"onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img class="popup-img" src="images/gallery-2.jpg"  width="100%" Class="small-img" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img class="popup-img" src="images/gallery-3.jpg"  width="100%" Class="small-img"  onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img class="popup-img" src="images/gallery-4.jpg"  width="100%" Class="small-img"  onclick="myFunction(this);">
+            </div>
+        </div>
+                
+<!-- The expanding image container -->
+            <div class="container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                
+<!-- Expanded image -->
+                <img id="expandedImg" style="width:100%">
+                    
+                <!-- Image text -->
+                <div id="imgtext"></div>
+            </div>
+        <div class="col-2">
+            <p>Home / Wallpapers</p>
+            <h1>Exclusive wallpapers</h1>
+            <h4>$50.00</h4>
+                <select>
+                    <option>Select resolution</option>
+                    <option>Phone (1080p)</option>
+                    <option>PC (2160p)</option>
+                    <option>Tab (1080p)</option>
+                    <option>Ipad (1080p)</option>
+                    <option>TV (4320p)</option>
+                </select>
+            
+                <a href="" class="btn">Add to Cart</a>
+                <h3>Wallpaper Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Give your summer Wallpaper a style upgrade with the Zedge's most 
+                Exclusive and premium wallpapers. Match it with multiple devices for 
+                a better aesthetic look on all your devices.</p>
+            </div>
+    </div>
+
+<!--title-->
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Wallpapers</h2>
+            <p>View More</p>
+        </div>
+    </div>
+
+    
+<!--Products-->
+    <div class="small-container">
+        <div class="row row-2">
+ 
+        </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ycaSW0PfaxAj1s-VbT95bIF3cf3k_hHOQA&s"><img class="popup-img" src="images/ZenitsuSingh.jpg.png"></a>
+                    <h4>Zenitsu</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$85.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR58CBCpatZ1Bpnfs6qx6wHGuiO0GdLZ_9tXg&s"><img class="popup-img" src="images/product-10.jpg"></a>
+                    <h4>Igris Blood-red Commander</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$70.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOS4eEtdBmjDNJA1D_v9F8ZP85sUmKfIq87w&s"><img class="popup-img" src="images/product-11.jpg"></a>
+                    <h4>Porche 992 GT3 RS</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$45.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="https://images3.alphacoders.com/132/1322308.jpeg"><img class="popup-img" src="images/product-12.jpg"></a>
+                    <h4>Fantasy Shooting Stars</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$35.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                 <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                 </div>
+                 <div class="footer-col-2">
+                    <img src="images/Zedgepurple.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and 
+                    Benefits of Sports Accessible to the Many.</p>
+                 </div>
+                 <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                 </div>
+                 <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTubes</li>
+                    </ul>
+                 </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 The Devs - Zedge</p>
+        </div>
+    </div>
+
+    <script>
+        
+var MenuItems = document.getElementById("MenuItems");
+
+MenuItems.style.maxHeight = "0px";
+
+function menutoggle(){
+    if (MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+    else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }      
+}
+    </script>
+</body>
+</html>
